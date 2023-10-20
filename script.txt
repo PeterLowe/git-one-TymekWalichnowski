@@ -1,2 +1,5 @@
 Git Guide
 By Tymoteusz Walicnowski
+
+Format: git rm <filename>
+The git rm command is used to remove files from a github repository. It is the opposite of the add command. By default it deletes file from both repository and from the file system, the --cached flag can be used so only the file in the repository is deleted. The -r flag is used to recursively remove folders. The -n flag is used if the user wishes to do a dry run, listing the files that would be deleted by the command, but not actually deleting them. 
